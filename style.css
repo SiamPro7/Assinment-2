@@ -1,0 +1,362 @@
+body {
+  background-color: #000;
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+/* ------------Similar-things--------------- */
+h1 {
+  font-size: 4em;
+  color: hsl(202, 65%, 97%);
+}
+p {
+  color: #888888e8;
+}
+.bg_color {
+  background-color: rgba(255, 0, 0, 0.886);
+}
+.hover:hover {
+  background-color: rgba(126, 230, 22, 0.516);
+  border-radius: 20px;
+}
+.button {
+  background-color: rgba(255, 0, 0, 0.886);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 12px 40px;
+  font-size: large;
+  border: none;
+  border-radius: 30px;
+}
+
+/* -----navbar-style-part------------- */
+header {
+  padding: 0px 100px;
+  background: #1a1a1a;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 29px;
+}
+.logo {
+  color: rgba(250, 13, 13, 0.973);
+  font-weight: 900;
+  font-size: 40px;
+  font-style: italic;
+}
+.link{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  border: rgba(120, 114, 114, 0.662) 1px solid;
+  border-radius: 20px;
+}
+
+.link li {
+  padding: 9px;
+}
+.link li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+}
+#Home {
+  border-radius: 20px;
+}
+/* -------------header-part-style------------------ */
+.header {
+  display: flex;
+}
+.shape_style{
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1em;
+}
+.header_h1{
+  font-size: 5.5em;
+}
+
+
+.shape_style{
+  font-family: "Playwrite DK Loopet", cursive;
+  font-optical-sizing:auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.header_content {
+  width: 60%;
+}
+.button_change {
+  background-color: #1a1a1a;
+  border: white 1px solid;
+}
+/* ----------------Header image style-----------   */
+
+.header_image {
+  /* position: relative; */
+  display: flex;
+
+  position: relative;
+}
+img {
+  width: 100%;
+}
+.Box_1 {
+  position: absolute;
+  right: 0px;
+  top: 25%;
+  background-color: #4341415e;
+  padding: 0px 15px;
+  border-radius: 8%;
+}
+.Box_2 {
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  background-color: #4341415e;
+  padding: 0px 15px;
+  border-radius: 8%;
+}
+.round_color {
+  width: 30px;
+  height: 30px;
+  background-color: #f05336;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: 34px;
+}
+/* -------------------- main-part-style ------------------ */
+
+/*---------- Change Your Habits --------------- */
+.Change_Your_Habits {
+  padding: 20px 100px;
+}
+.Change_Your_Habits_content {
+  text-align: center;
+}
+.Change_Your_Habits_all_Images {
+  display: flex;
+  text-align: center;
+}
+.Change_Your_Habits_Images {
+  padding: 20px 40px;
+}
+.Change_Your_Habits_Images img {
+  max-width: 100%;
+  border-radius: 60%;
+  object-fit: cover;
+}
+
+/* --M-P-2-------Run an Extra Mile Easily part style------*/
+.Run_an_Extra_Mile {
+  display: flex;
+  background-color: #1a1a1a;
+  padding: 0px 20px;
+  margin: 75px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+.Run_an_Extra_Mile_Content {
+  width: 50%;
+}
+
+.Run_an_Extra_Mile_Image {
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+.Run_an_Extra_Mile_Image img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+/* ---M_P-3-------Trainings and Exercises ------------------ */
+.Trainings_and_Exercises {
+  padding: 0px 100px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  width: 100%;
+}
+
+.grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}
+.col-span-3 {
+  grid-column: span 3;
+}
+
+.relative {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+}
+
+.black_overlay {
+  position: absolute;
+  background: hwb(0 56% 39% / 0.381);
+  z-index: 1;
+}
+
+.text_bottom {
+  position: absolute;
+  right: 14px;
+  bottom: 12px;
+  color: white;
+}
+.text_top_right {
+  position: absolute;
+  right: 14px;
+  top: 12px;
+  color: white;
+}
+.text_top_left {
+  position: absolute;
+  left: 14px;
+  top: 12px;
+  color: white;
+}
+.text_bottom_left {
+  position: absolute;
+  left: 14px;
+  bottom: 12px;
+  color: white;
+}
+/* ----------------- The Article part start  --------------------- */
+/* -A-p-1------------ BMI_Calculator-part---------------- */
+.BMI_Calculator {
+  text-align: center;
+}
+/* -------------------table-style------------ */
+
+.table_and_form {
+  display: flex;
+  padding: 10px 100px;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 13px 25px;
+  border: 1px #585656 solid;
+}
+td {
+  color: #585656;
+}
+/* ----------------form-style------------- */
+.form {
+  width: 50%;
+}
+.block {
+  display: block;
+}
+input,
+select {
+  padding: 15px 45px;
+  margin: 4px;
+  border: none;
+  border-radius: 7px;
+  background-color: #363333;
+}
+.select {
+  padding-right: 140px;
+  color: #9b9797;
+}
+.select_1 {
+  padding-right: 300px;
+  color: #9b9797;
+}
+.input {
+  padding-right: 310px;
+  margin-bottom: 19px;
+}
+/* -- A-P-2--------------Meet Our Team ----------------------- */
+.Meet_Our_Team {
+  margin: 15px 165px;
+}
+.Meet_Our_Team_content {
+  text-align: center;
+}
+.Meet_Our_Team_Image {
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.Meet_Our_Team_Image img {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  height: 100%;
+}
+.relative {
+  position: relative;
+}
+
+.overlay_article {
+  position: absolute;
+  left: 12px;
+  bottom: 0;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+}
+
+/* - --------------------THE FOOTER PART ------------------------ */
+footer {
+  background-color: #1a1a1a;
+  padding: 40px 100px;
+}
+.last-footer {
+  display: flex;
+  padding-bottom: 50px;
+}
+.last-footer-content {
+  width: 50%;
+}
+.About_info {
+  display: flex;
+}
+.about li {
+  list-style: none;
+  margin: 20px;
+}
+.about li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #ffffff8d;
+}
+.about li a:hover {
+  color: #0cda2a;
+}
+.end {
+  text-align: center;
+}

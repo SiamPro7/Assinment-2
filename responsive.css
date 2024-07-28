@@ -1,0 +1,113 @@
+@media screen and (max-width: 524px) {
+
+  header{
+    padding:0px 22px ;
+  }
+  h1{
+    font-size: 2em;
+  }
+  .link{
+   display: none;
+  }
+  .header{
+    flex-direction: column;
+  }
+  .header_content{
+    width: 100%;
+  }
+
+  .button{
+    padding: 8px 15px;
+  }
+  .Change_Your_Habits {
+    padding: 10px 16px;
+  }
+  .Change_Your_Habits_all_Images {
+    display: block;
+  }
+  .Run_an_Extra_Mile{
+    display: block;
+    margin: 19px ;
+    padding: 0px 16px;
+  } 
+  .Run_an_Extra_Mile_Content{
+    width: 100%;
+    padding-top: 10px;
+  }
+  .Run_an_Extra_Mile_Image img{
+    width: 100%;
+    height: 240px;
+    width: 300px;
+    padding-bottom: 10px;
+    
+  }
+  .Run_an_Extra_Mile_Image{
+    margin: 13px 0px;
+  }
+  .Trainings_and_Exercises{
+    display: none;
+  }
+  /* -A-p-1------------ BMI_Calculator-part---------------- */
+  .BMI_Calculator{
+    padding: 10px;
+  }
+  .table_and_form{
+    
+    display: block;
+    padding: 0px 16px;
+  }
+  .block{
+    
+   
+    margin: 0px;
+  }
+  .form{
+    padding-bottom: 30px;
+   
+   
+  }
+  input,select{
+    
+ 
+    padding:12px 0px;
+  }
+  .select{
+    padding-right: 95px;
+  }
+  .select_1 {
+    
+  
+      padding-right: 0px;
+
+  }
+  /* Meet our team */
+    .Meet_Our_Team {
+      margin:0px 16px ;
+
+}
+.Meet_Our_Team_Image{
+  display: block;
+}
+/* the footer */
+footer{
+  padding:2px 16px ;
+  margin-top: 30px;
+}
+.last-footer-content{
+  width: 100%;
+}
+.last-footer{
+  display: block;
+  
+}
+.About_info{
+  display: block;
+ padding-left: 0px;
+border: 2px saddlebrown solid
+  ;
+}
+}
+
+@media screen and (max-width: 769px) {
+  
+}
