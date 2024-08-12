@@ -35,6 +35,7 @@ p {
 /* -----navbar-style-part------------- */
 header {
   padding: 0px 100px;
+  background: linear-gradient(color);
   background: #1a1a1a;
 }
 .navbar {
